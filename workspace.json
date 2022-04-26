@@ -1,4 +1,8 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "admin": "apps/admin",
+    "dashboard": "apps/dashboard",
+    "host": "apps/host"
+  }
 }
