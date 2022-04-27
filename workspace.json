@@ -3,6 +3,7 @@
   "projects": {
     "admin": "apps/admin",
     "dashboard": "apps/dashboard",
-    "host": "apps/host"
+    "host": "apps/host",
+    "ui-navbar": "libs/ui/navbar"
   }
 }
