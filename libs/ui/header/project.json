@@ -1,0 +1,52 @@
+{
+  "projectType": "library",
+  "root": "libs/ui/header",
+  "sourceRoot": "libs/ui/header/src",
+  "prefix": "micro",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "libs/ui/header/src/**/*.ts",
+          "libs/ui/header/src/**/*.html"
+        ]
+      }
+    },
+    "storybook": {
+      "executor": "@nrwl/storybook:storybook",
+      "options": {
+        "uiFramework": "@storybook/angular",
+        "port": 4400,
+        "config": {
+          "configFolder": "libs/ui/header/.storybook"
+        },
+        "projectBuildConfig": "ui-header:build-storybook"
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@nrwl/storybook:build",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "uiFramework": "@storybook/angular",
+        "outputPath": "dist/storybook/ui-header",
+        "config": {
+          "configFolder": "libs/ui/header/.storybook"
+        },
+        "projectBuildConfig": "ui-header:build-storybook",
+        "styles": ["node_modules/@fortawesome/fontawesome-free/css/all.min.css"]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    }
+  },
+  "tags": []
+}

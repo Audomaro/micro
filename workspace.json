@@ -4,6 +4,7 @@
     "admin": "apps/admin",
     "dashboard": "apps/dashboard",
     "host": "apps/host",
+    "ui-header": "libs/ui/header",
     "ui-navbar": "libs/ui/navbar"
   }
 }

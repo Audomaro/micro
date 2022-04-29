@@ -1,3 +1,4 @@
+import { UiHeaderModule } from '@micro/ui/header';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -12,6 +13,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule,
     UiNavbarModule,
+    UiHeaderModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
