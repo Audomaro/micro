@@ -1,19 +1,18 @@
-import { UiHeaderModule } from '@micro/ui/header';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { UiHeaderModule } from '@micro/ui/header';
 import { RouterModule } from '@angular/router';
-import { UiNavbarModule } from '@micro/ui/navbar';
-import { AppRoutingModule } from './app-routing.module';
+// import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [AppComponent,],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    UiNavbarModule,
+    // AppRoutingModule,
     UiHeaderModule,
+    RouterModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
