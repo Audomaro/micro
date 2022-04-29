@@ -1,0 +1,48 @@
+:host {
+  --body-font: "Manrope", sans-serif;
+  --body-color: #b3b3b3;
+  --body-bg-color: #f2f2f2;
+  --theme-bg-color: #fafafa;
+  --border-color: #efefef;
+  --logo-color: #f13a2f;
+  --main-color: #808080;
+  --header-bg-color: #fff;
+}
+
+.fas,
+.far,
+.fad {
+  font-size: 1.5rem;
+  padding-right: 1rem;
+}
+
+.left-side {
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--border-color);
+  overflow: auto;
+  flex-shrink: 0;
+}
+
+.side-wrapper:not(:last-child) {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.side-menu {
+  padding: 20px;
+}
+
+.side-menu a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  white-space: nowrap;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}

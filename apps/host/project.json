@@ -17,6 +17,7 @@
         "assets": ["apps/host/src/favicon.ico", "apps/host/src/assets"],
         "styles": [
           "node_modules/devextreme/scss/bundles/dx.material.blue.light.compact.scss",
+          "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
           "apps/host/src/styles.scss"
         ],
         "scripts": [],

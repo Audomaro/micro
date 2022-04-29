@@ -10,24 +10,15 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": [
-      "es2017",
-      "dom"
-    ],
+    "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@micro/ui/header": [
-        "libs/ui/header/src/index.ts"
-      ],
-      "@micro/ui/navbar": [
-        "libs/ui/navbar/src/index.ts"
-      ]
+      "@micro/ui/header": ["libs/ui/header/src/index.ts"],
+      "@micro/ui/navbar": ["libs/ui/navbar/src/index.ts"],
+      "@micro/ui/side-menu": ["libs/ui/side-menu/src/index.ts"]
     }
   },
-  "exclude": [
-    "node_modules",
-    "tmp"
-  ]
+  "exclude": ["node_modules", "tmp"]
 }

@@ -5,6 +5,7 @@
     "dashboard": "apps/dashboard",
     "host": "apps/host",
     "ui-header": "libs/ui/header",
-    "ui-navbar": "libs/ui/navbar"
+    "ui-navbar": "libs/ui/navbar",
+    "ui-side-menu": "libs/ui/side-menu"
   }
 }
