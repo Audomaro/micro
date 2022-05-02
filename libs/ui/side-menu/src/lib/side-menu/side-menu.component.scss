@@ -11,18 +11,21 @@
 
 .fas,
 .far,
-.fad {
+.fab {
   font-size: 1.5rem;
-  padding-right: 1rem;
+  // padding-right: 1rem;
 }
 
 .left-side {
-  width: 270px;
+  background-color: var(--theme-bg-color);
+  width: 200px;
   display: flex;
   flex-direction: column;
   border-right: 1px solid var(--border-color);
   overflow: auto;
   flex-shrink: 0;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .side-wrapper:not(:last-child) {
