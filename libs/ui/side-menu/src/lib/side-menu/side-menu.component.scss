@@ -7,6 +7,7 @@
   --logo-color: #f13a2f;
   --main-color: #808080;
   --header-bg-color: #fff;
+  --text-primary: #333;
 }
 
 .fas,
@@ -39,13 +40,31 @@
 .side-menu a {
   text-decoration: none;
   font-weight: 500;
-  color: var(--main-color);
+
   display: flex;
   align-items: center;
   font-size: 1.2rem;
   white-space: nowrap;
 
+  &,
+  &:link,
+  a:visited,
+  &:active {
+    color: var(--main-color);
+  }
+
+  &:hover,
+  &:focus {
+    color: var(--text-primary);
+  }
+
+
+
   &:not(:last-child) {
     margin-bottom: 20px;
+  }
+
+  .icon+span {
+    margin-left: 1rem;
   }
 }

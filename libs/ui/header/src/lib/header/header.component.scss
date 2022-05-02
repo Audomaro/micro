@@ -31,6 +31,9 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
 
+  &:link,
+  a:visited {}
+
   &:hover,
   &:focus {
     color: var(--main-color);

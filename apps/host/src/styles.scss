@@ -3,14 +3,19 @@
   --bg: #f2f2f2;
 }
 
-body,
-html {
-  background-color: var(--bg);
-  padding: 0;
+body {
   margin: 0;
+  padding: 0;
+  height: 100vh;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
-  overflow: hidden;
-  width: 100%;
-  height: 100%;
+  /* Try removing this.. */
+  background: rgb(254, 252, 234);
+  background: -moz-linear-gradient(top, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(254, 252, 234, 1)), color-stop(100%, rgba(241, 218, 54, 1)));
+  background: -webkit-linear-gradient(top, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+  background: -o-linear-gradient(top, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+  background: -ms-linear-gradient(top, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
+  background: linear-gradient(to bottom, rgba(254, 252, 234, 1) 0%, rgba(241, 218, 54, 1) 100%);
 }

@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: chocolate;
+  margin: 2rem;
+
+  &-content {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+}
