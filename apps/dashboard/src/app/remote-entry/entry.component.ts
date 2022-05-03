@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   template: `<div class="remote-entry">
     <h2>dashboard's Remote Entry Component</h2>
   </div>`,
-  styles: [
-
-  ],
+  styles: [],
 })
 export class RemoteEntryComponent { }
